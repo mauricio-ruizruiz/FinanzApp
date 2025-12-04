@@ -3334,6 +3334,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantine/dates@npm:^8.3.9":
+  version: 8.3.9
+  resolution: "@mantine/dates@npm:8.3.9"
+  dependencies:
+    clsx: "npm:^2.1.1"
+  peerDependencies:
+    "@mantine/core": 8.3.9
+    "@mantine/hooks": 8.3.9
+    dayjs: ">=1.0.0"
+    react: ^18.x || ^19.x
+    react-dom: ^18.x || ^19.x
+  checksum: 10c0/6ea59bac4de23566dedfa0a7508a89ab7340cb9c98a868967a0f9c2db1e20bd743b95f91d9b42563a9cbc490e3abfee62f5c5beca72d1bb554852729932e84a0
+  languageName: node
+  linkType: hard
+
 "@mantine/hooks@npm:8.3.9":
   version: 8.3.9
   resolution: "@mantine/hooks@npm:8.3.9"
@@ -6541,6 +6556,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dayjs@npm:^1.11.19":
+  version: 1.11.19
+  resolution: "dayjs@npm:1.11.19"
+  checksum: 10c0/7d8a6074a343f821f81ea284d700bd34ea6c7abbe8d93bce7aba818948957c1b7f56131702e5e890a5622cdfc05dcebe8aed0b8313bdc6838a594d7846b0b000
+  languageName: node
+  linkType: hard
+
 "debounce@npm:^1.2.1":
   version: 1.2.1
   resolution: "debounce@npm:1.2.1"
@@ -8147,6 +8169,7 @@ __metadata:
     "@eslint/js": "npm:^9.37.0"
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.7.0"
     "@mantine/core": "npm:8.3.9"
+    "@mantine/dates": "npm:^8.3.9"
     "@mantine/hooks": "npm:8.3.9"
     "@next/bundle-analyzer": "npm:^16.0.0"
     "@storybook/addon-themes": "npm:^10.0.0"
@@ -8162,6 +8185,7 @@ __metadata:
     "@types/node": "npm:^24.7.1"
     "@types/react": "npm:19.2.6"
     babel-loader: "npm:^10.0.0"
+    dayjs: "npm:^1.11.19"
     eslint: "npm:^9.37.0"
     eslint-config-mantine: "npm:^4.0.3"
     eslint-config-next: "npm:16.0.3"
