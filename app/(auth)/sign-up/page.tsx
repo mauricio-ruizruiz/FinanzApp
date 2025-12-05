@@ -1,9 +1,13 @@
 import React from 'react';
+import { Container } from '@mantine/core';
+import AuthForm from '@/components/AuthForm/AuthForm';
 
 const SignUp = () => {
   return (
     <>
-      <div>SignUp</div>
+      <Container>
+        <AuthForm type="sign-up" />
+      </Container>
     </>
   );
 };
