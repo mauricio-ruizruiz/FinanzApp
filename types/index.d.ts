@@ -5,6 +5,12 @@ declare interface HeaderBoxProps {
   user?: string;
 }
 declare interface totalBalanceCardProps {
-  accounts: Account[];
+  // accounts: Account[];
+  account: string;
+  accountColor?: string;
   totalCurrentBalance: number;
 }
+// declare interface totalBalanceCardProps {
+//   accounts: Account[];
+//   totalCurrentBalance: number;
+// }

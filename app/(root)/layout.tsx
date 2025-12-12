@@ -2,6 +2,7 @@
 
 import { AppShell, Burger, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import { Navbar } from '@/components/Navbar/Navbar';
 
 export default function RootLayout({ children }: { children: any }) {
   const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
@@ -26,7 +27,9 @@ export default function RootLayout({ children }: { children: any }) {
           <Burger opened={desktopOpened} onClick={toggleDesktop} visibleFrom="sm" size="sm" />
         </Group>
       </AppShell.Header>
-      <AppShell.Navbar p="md">Navbar</AppShell.Navbar>
+      <AppShell.Navbar p="md">
+        <Navbar />
+      </AppShell.Navbar>
       <AppShell.Main>{children}</AppShell.Main>
     </AppShell>
   );

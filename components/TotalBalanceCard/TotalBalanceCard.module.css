@@ -1,11 +1,13 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
+.card {
+  display: grid;
+  /* grid: 1fr 1fr / 1fr; */
+  grid: 1fr/ 1fr 1fr;
+  align-items: center;
   justify-content: center;
-  padding-left: rem(20px);
+  border-radius: 0.8rem;
+  /* padding-left: rem(20px);s/ */
 }
 
 .chart {
-  margin-top: rem(20px);
+  /* margin-top: rem(20px); */
 }

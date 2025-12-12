@@ -4,4 +4,11 @@ export default {
   title: 'HeaderBox',
 };
 
-export const Usage = () => <HeaderBox />;
+export const Usage = () => (
+  <HeaderBox
+    title="Hello"
+    subtitle="Welcome to your dashboard"
+    user="User"
+    type="welcome"
+  />
+);
